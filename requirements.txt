@@ -1,0 +1,17 @@
+fastapi[standard]
+uvicorn
+pydub
+speechrecognition
+youtube-transcript-api
+python-dotenv
+openai
+python-multipart
+mammoth
+markdownify
+pandas
+pdfminer.six
+python-pptx
+puremagic
+requests
+beautifulsoup4
+charset-normalizer
