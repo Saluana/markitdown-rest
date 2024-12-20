@@ -33,15 +33,7 @@ RUN python3 -m venv .venv
 # Install dependencies with extras
 COPY requirements.txt .
 RUN . .venv/bin/activate && \
-    pip install --no-cache-dir -r requirements.txt && \
-    pip install --no-cache-dir --upgrade \
-    youtube-dl \
-    youtube-transcript-api \
-    pydub \
-    speechrecognition \
-    python-dotenv \
-    openai \
-    python-multipart
+    pip install --no-cache-dir -r requirements.txt --upgrade
 
 # Copy application code
 COPY . .

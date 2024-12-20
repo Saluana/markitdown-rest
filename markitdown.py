@@ -396,9 +396,6 @@ class YouTubeConverter(DocumentConverter):
         title = title if title else soup.title.string
         assert isinstance(title, str)
 
-        print(webpage_text)
-        print(title)
-
         return DocumentConverterResult(
             title=title,
             text_content= webpage_text,
